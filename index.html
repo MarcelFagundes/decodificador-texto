@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="./assets/images/Logo.png" alt="logo com a letra A na cor azul">
+        </div>
+        <main class="main-decodificador">
+            <section class="session-decodificador">
+                <textarea type="text" id="inputText" placeholder="Digite seu texto" class="input-text" oninput="validarTexto()"></textarea>
+                <div class="frame" id="frames">
+                    <img src="./assets/images/frame.png" alt="imagem com texto">
+                </div>
+                <div class="botoes">
+                    <button onclick="criptografarTexto()" class="botao_criptografar">Criptografar</button>
+                    <button onclick="descriptografarTexto()" class="botao_descriptografar">Descriptografar</button>
+                </div>
+            </section>
+            <section class="session-resultados">
+                <div class="imagem-com-detetive" id="img-com-detetive">
+                    <img class="detetive" src="assets/images/detetive.png"
+                        alt="Foto do detetive investigando a joia com a lupa">
+                    <p class="nenhuma-mensagem" id="nenhuma-mensagem"></p><br><br>
+                    <p class="digite-um-texto" id="digite-um-texto"></p>
+                </div>
+            </section>
+            <div class="imagem-sem-detetive" id="img-sem-detetive">
+                <textarea class="result" id="resultText" readonly></textarea>
+                <button class="botaoHidden" id="copiarTexto" onclick="copiarTexto()">Copiar</button>
+            </div>
+            </section>
+        </main>
+    </header>
+    <footer class="rodape">
+        <p class="rodape_textos">Desenvolvido por Marcel Fagundes Souza</p>
+        <a class href="https://linkedin.com/in/marcel-fagundes">
+            <img class="imagem_linkedin" src="assets/images/linkedin.png" alt="Ícone do LinkedIn"></a>
+        <a class href="https://github.com/marcelfagundes">
+            <img class="imagem_github" src="assets/images/github.png" alt="Ícone do GitHub"></a>
+    </footer>
+    <script src="./assets/app.js" defer> </script>
+</body>
+
+</html>

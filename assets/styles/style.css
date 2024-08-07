@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #F3F5FC;
+    color: #0A3871;
+}
+
+.logo {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.frame {
+    padding: 15px 0px 15px 0px;
+    display: flex;
+}
+
+.input-text {
+    width: 680px;
+    height: 488px;
+    color: #0A3871;
+    font-family: "Inter", sans-serif;
+    background-color: transparent;
+    font-size: 2rem;
+    border: none;
+    border-radius: 24px;
+    box-shadow: none;
+    outline: 0;
+    text-transform: lowercase;
+    text-transform: unset;
+    padding: 30px 30px 30px 30px;
+}
+
+.input-text::placeholder {
+    color: #0A3871; 
+}
+
+.input-text:focus {
+    outline: none;
+    resize: none; 
+}
+
+.textoInvalido { 
+    color: red;
+}
+.textoValido {
+    color: #0A3871;
+}
+
+.apenas-letras-invalid {
+    color: #495057;
+    font-family: "Inter", sans-serif;
+    font-size: 0.75rem;
+    padding: 15px 0px 15px 0px;
+}
+
+.botoes {
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    padding: 1% 0 3% 0;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.botao_criptografar {
+    background-color: #0A3871;
+    font-size: 1rem;
+    color: #FFFFFF;
+    width: 328px;
+    /* height: 67px; */
+    text-align: center;
+    border-radius: 24px;
+    border: none;
+    padding: 24px 0;
+    cursor: pointer;
+}
+
+.botao_descriptografar {
+    background-color: #D8DFE8;
+    font-size: 1rem;
+    color: #0A3871;
+    width: 328px;
+    text-align: center;
+    border-radius: 24px;
+    padding: 24px 0;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+}
+
+.botaoHidden {
+    box-shadow: none;
+    width: 300px;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 24px 0;
+    cursor: pointer;
+    color: #0A3871;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #007BFF;
+}
+
+.main-decodificador {
+    margin: 0% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.session-decodificador {
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem-com-detetive {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 300px;
+    height: 600px;
+    border-radius: 30px;
+    padding: 30px 30px 30px 30px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.imagem-sem-detetive {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 300px;
+    height: 600px;
+    border-radius: 30px;
+    padding: 30px 30px 30px 30px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    align-items: center;
+}
+
+.result {
+    background: transparent;
+    border: none;
+    width: 300px;
+    height: 530px;
+    font-size: 24px;
+    font-weight: 200;
+    resize: none;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.nenhuma-mensagem {
+    font-weight: 700;
+    color: #343A40;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.digite-um-texto {
+    font-family: "Inter", sans-serif;
+    color: #343A40;
+    font-size: 1.0rem;
+    text-align: center;
+}
+
+.rodape {
+    font-family: "Inter", sans-serif;
+    margin-top: 64px;
+    display: flex;
+    background-color: #0A3871;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.0rem;
+    font-weight: 600;
+}
+
+.rodape_textos {
+    background-color: #0A3871;
+    color: white;
+}
+
+.imagem_linkedin {
+    background-color: #0A3871;
+    color: #0A3871;
+}
+
+.imagem_github {
+    background-color: #0A3871;
+    color: #0A3871;
+}
